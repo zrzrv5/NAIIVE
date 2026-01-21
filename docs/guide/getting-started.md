@@ -8,12 +8,11 @@ Naiive is an experimental node-based visualization studio built with Swift & Met
 
 ## Installation
 
-Currently, Naiive is in active development.
+Naiive is currently in active early development.
 
-// something about you can get if from App Store after launch for free
-// TestFlight will be available before launch
+You can try the latest build on [TestFlight](https://testflight.apple.com/join/VrYnN9nE).
 
-// Binary will be distributed via App Store.
+The application is free to use and will be available on the App Store upon official release.
 
 
 ## Next Steps

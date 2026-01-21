@@ -95,7 +95,7 @@ function triggerEasterEgg() {
             <a href="/" class="logo">NAIIVE</a>
             <div class="nav-links">
                 <a href="/guide/getting-started">Docs</a>
-                <a href="#" class="disabled">TestFlight Soon</a>
+                <a href="https://testflight.apple.com/join/VrYnN9nE" class="nav-btn">TestFlight Beta</a>
             </div>
         </div>
     </nav>
@@ -177,7 +177,7 @@ function triggerEasterEgg() {
             </div>
 
             <!-- A: Analysis -->
-            <div class="narrative-row reverse fade-in-scroll">
+            <!-- <div class="narrative-row reverse fade-in-scroll">
                 <div class="narrative-text">
                     <h2 class="narrative-heading">Analysis</h2>
                     <p>Real-time structural analysis. Get immediate feedback on your simulation data.</p>
@@ -185,10 +185,10 @@ function triggerEasterEgg() {
                 <div class="narrative-visual">
                     <img src="/images/analysis_dashboard.jpeg" alt="Analysis Dashboard" class="feature-img">
                 </div>
-            </div>
+            </div> -->
 
             <!-- I: Immersive -->
-            <div class="narrative-row fade-in-scroll">
+            <!-- <div class="narrative-row fade-in-scroll">
                 <div class="narrative-text">
                     <h2 class="narrative-heading">Immersive</h2>
                     <p>Step inside your data. Native spatial rendering on Apple Vision Pro brings atoms to life.</p>
@@ -196,10 +196,10 @@ function triggerEasterEgg() {
                 <div class="narrative-visual">
                     <img src="/images/spatial_rendering_demo_1766956069689.jpeg" alt="Spatial Rendering" class="feature-img">
                 </div>
-            </div>
+            </div> -->
 
             <!-- V: Volumetric -->
-            <div class="narrative-row reverse fade-in-scroll">
+            <!-- <div class="narrative-row reverse fade-in-scroll">
                 <div class="narrative-text">
                     <h2 class="narrative-heading">Volumetric</h2>
                     <p>High-fidelity density rendering. Visualize fields and clouds with astonishing clarity.</p>
@@ -207,7 +207,7 @@ function triggerEasterEgg() {
                 <div class="narrative-visual">
                     <img src="/images/volumetric_rendering_demo_1766956080726.jpeg" alt="Volumetric Rendering" class="feature-img">
                 </div>
-            </div>
+            </div> -->
 
             <!-- E: Ecosystem -->
             <div class="narrative-row fade-in-scroll">
@@ -251,7 +251,7 @@ function triggerEasterEgg() {
                 <div class="cta-section fade-in-scroll">
                     <h3>Ready to explore?</h3>
                     <div class="btn-group">
-                        <a class="btn-disabled">TestFlight Soon</a>
+                        <a href="https://testflight.apple.com/join/VrYnN9nE" class="btn-primary">Join TestFlight</a>
                         <a href="/guide/getting-started" class="btn-secondary">Go to Docs</a>
                     </div>
                 </div>
@@ -276,7 +276,7 @@ function triggerEasterEgg() {
 
                     <div class="faq-item fade-in-scroll">
                         <div class="faq-question">Release Date?</div>
-                        <div class="faq-answer">NAIIVE is currently in development and Beta Testing (via TestFlight) is expected to begin in Q2 2026.</div>
+                        <div class="faq-answer">NAIIVE is currently in active early development. You can join the public beta via TestFlight.</div>
                     </div>
 
                     <div class="faq-item fade-in-scroll">
@@ -445,15 +445,67 @@ function triggerEasterEgg() {
     background: linear-gradient(to bottom, var(--geek-text-color), transparent);
 }
 
+.btn-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
 .btn-primary {
     background: var(--geek-text-color);
     color: var(--geek-bg-color) !important;
-    padding: 10px 20px;
+    padding: 10px 24px;
     border-radius: 99px;
     font-weight: 600 !important;
     text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
-    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    box-sizing: border-box;
+    transition: opacity 0.2s;
+    border: 1px solid var(--geek-text-color); /* Invisible border to match secondary size if needed, or just style choice */
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--geek-text-color) !important;
+    padding: 10px 24px;
+    border-radius: 99px;
+    font-weight: 600 !important;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid var(--geek-text-color);
+    transition: opacity 0.2s, background 0.2s;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    opacity: 0.8;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-btn {
+    background: var(--geek-text-color);
+    color: var(--geek-bg-color) !important;
+    padding: 6px 16px;
+    border-radius: 99px;
+    font-weight: 600 !important;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: opacity 0.2s;
+}
+
+.nav-btn:hover {
+    opacity: 0.9;
 }
 </style>
