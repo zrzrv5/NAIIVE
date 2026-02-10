@@ -18,7 +18,7 @@
 
 ## Introduction
 
-**NAIIVE**  is a next-generation scientific renderer designed for the Apple ecosystem. 
+**NAIIVE**  is an experimental scientific renderer designed for the Apple ecosystem. 
 
 > **Status:** 
 > - Make it work 👈 we are here
@@ -80,28 +80,38 @@ While the *Application* is free for everyone, the **Source Code** is available e
 
 NAIIVE currently supports the following formats commonly used in my research workflow:
 
-* **LAMMPS:** `.dump` (text dump with `.gz` support)
-* **DeepMD:** `deepmd/npy`, `deepmd/raw` (Machine Learning Force Field Datasets)
-* **GAMESS:** `.inp` (Input files), log output files
-* **VASP:** `POSCAR`
-<!-- , `CONTCAR`, `XDATCAR` -->
-<!-- * **VASP:** `CHGCAR` (Volumetric data) -->
+* **LAMMPS**: `.dump` (supports `.gz` compression)
+* **DeepMD**: `deepmd/npy` and `deepmd/raw`
+* **GAMESS**: `.inp` (Input) and log output files
+* **VASP**: `POSCAR`, `OUTCAR` (plain text), and `CHGCAR`
+* **XYZ**: `.xyz` and `.extxyz`
 
-And these format are planed to support:
-* **LAMMPS:** `data` format, as well as thermodynamic output log files
-* **xyz**: `xyz` and `extxyz` format
-* **VASP**: `OUTCAR`
+### 🚧 Planned Support
+* **LAMMPS**: `data` files and thermodynamic logs
+* **Common Formats**: `.cif`, `.cfg`, `.pdb`
+* **Mesh**: `.stl`, `.obj`
 
+## Rendering Objects
 
+NAIIVE currently implements these primitives for  visualization:
 
+* **0D** :
+  - `Particle` via sphere imposters
+* **1D** :
+  - `Cylinder`, `Arrow` via cylinder imposters
+* **2D** :
+  - `Text` Full Unicode support (e.g., 中文, ⚛️) via CoreText
+* **3D** :
+  - `Mesh`: Standard 3D mesh rendering
+  - `Volume`: volumetric ray-marching
 
-
-
-
-
+### 🚧 Planned 
+* **Optimized Primitives**: `Point` and `SimpleSphere` for massive systems
+* **Line Primitives**: `Line` and `Polyline`
+* **Media**: `Image` objects (png&gif)
 
 ## License
 
 The content of this repository (Website/Docs) is licensed under the **MIT License**.
 
-*Note: The NAIIVE application binaries and source code hosted in the private repository are proprietary.*
+*Note: The NAIIVE application binaries and source code hosted in the private repository are currently proprietary.*
