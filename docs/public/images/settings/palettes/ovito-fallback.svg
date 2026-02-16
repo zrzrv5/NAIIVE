@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="90" viewBox="0 0 820 90" role="img" aria-label="OVITO fallback color order">
+  <rect width="820" height="90" fill="#111827"/>
+  <text x="16" y="24" fill="#f9fafb" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="600">OVITO list (fallback) color order</text>
+  <g transform="translate(16,36)">
+    <rect x="0" y="0" width="94" height="36" fill="#FF6666"/>
+    <rect x="96" y="0" width="94" height="36" fill="#6666FF"/>
+    <rect x="192" y="0" width="94" height="36" fill="#FFFF00"/>
+    <rect x="288" y="0" width="94" height="36" fill="#FF66FF"/>
+    <rect x="384" y="0" width="94" height="36" fill="#66FF33"/>
+    <rect x="480" y="0" width="94" height="36" fill="#CCFFB3"/>
+    <rect x="576" y="0" width="94" height="36" fill="#B300FF"/>
+    <rect x="672" y="0" width="94" height="36" fill="#33FFFF"/>
+
+    <text x="45" y="56" fill="#e5e7eb" font-size="12" text-anchor="middle" font-family="Menlo, monospace">1</text>
+    <text x="141" y="56" fill="#e5e7eb" font-size="12" text-anchor="middle" font-family="Menlo, monospace">2</text>
+    <text x="237" y="56" fill="#e5e7eb" font-size="12" text-anchor="middle" font-family="Menlo, monospace">3</text>
+    <text x="333" y="56" fill="#e5e7eb" font-size="12" text-anchor="middle" font-family="Menlo, monospace">4</text>
+    <text x="429" y="56" fill="#e5e7eb" font-size="12" text-anchor="middle" font-family="Menlo, monospace">5</text>
+    <text x="525" y="56" fill="#e5e7eb" font-size="12" text-anchor="middle" font-family="Menlo, monospace">6</text>
+    <text x="621" y="56" fill="#e5e7eb" font-size="12" text-anchor="middle" font-family="Menlo, monospace">7</text>
+    <text x="717" y="56" fill="#e5e7eb" font-size="12" text-anchor="middle" font-family="Menlo, monospace">8</text>
+  </g>
+</svg>
