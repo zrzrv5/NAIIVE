@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Naiive",
   description: "Experimental node-based visualization studio built with Swift & Metal.",
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+  ],
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },

@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="docs/public/favicon.svg" alt="NAIIVE Logo" width="120" />
+</div>
+
 # NAIIVE
 
 <div align="center">

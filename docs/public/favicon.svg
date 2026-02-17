@@ -1,0 +1,61 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_210_67)">
+<rect width="64" height="64" rx="12.8" fill="black"/>
+<line x1="45.8754" y1="43.9855" x2="52.8194" y2="20.0175" stroke="#818181" stroke-width="1.024"/>
+<line x1="18.1815" y1="44.0003" x2="32.0055" y2="20.0323" stroke="#818181" stroke-width="1.024"/>
+<line x1="18.1958" y1="44.015" x2="11.2198" y2="20.015" stroke="#818181" stroke-width="1.024"/>
+<line x1="45.8927" y1="44.0001" x2="32.0367" y2="20.0321" stroke="#818181" stroke-width="1.024"/>
+<line x1="32.0315" y1="8.09595" x2="32.0315" y2="20.0319" stroke="#818181" stroke-width="1.024"/>
+<line x1="32.0154" y1="56.0342" x2="18.1914" y2="44.0022" stroke="#818181" stroke-width="1.024"/>
+<line x1="32.0784" y1="55.9974" x2="45.9024" y2="43.9974" stroke="#818181" stroke-width="1.024"/>
+<circle cx="32.0323" cy="20.0001" r="2.864" fill="#818181" stroke="#818181" stroke-width="0.032"/>
+<circle cx="18.1769" cy="44.0001" r="2.864" fill="#818181" stroke="#818181" stroke-width="0.032"/>
+<circle cx="45.8566" cy="44.0001" r="2.864" fill="#818181" stroke="#818181" stroke-width="0.032"/>
+<line x1="45.8754" y1="43.9855" x2="52.8194" y2="20.0175" stroke="#818181" stroke-opacity="0.9" stroke-width="1.024"/>
+<line x1="18.1815" y1="44.0003" x2="32.0055" y2="20.0323" stroke="#818181" stroke-opacity="0.9" stroke-width="1.024"/>
+<line x1="18.1958" y1="44.015" x2="11.2198" y2="20.015" stroke="#818181" stroke-opacity="0.9" stroke-width="1.024"/>
+<line x1="45.8927" y1="44.0001" x2="32.0367" y2="20.0321" stroke="#818181" stroke-opacity="0.9" stroke-width="1.024"/>
+<line x1="32.0315" y1="8.09595" x2="32.0315" y2="20.0319" stroke="#818181" stroke-opacity="0.9" stroke-width="1.024"/>
+<line x1="32.0154" y1="56.0342" x2="18.1914" y2="44.0022" stroke="#818181" stroke-opacity="0.9" stroke-width="1.024"/>
+<line x1="32.0784" y1="55.9974" x2="45.9024" y2="43.9974" stroke="#818181" stroke-opacity="0.9" stroke-width="1.024"/>
+<circle cx="32.0323" cy="20.0001" r="2.864" fill="#818181" stroke="#818181" stroke-width="0.032"/>
+<circle cx="18.1769" cy="44.0001" r="2.864" fill="#818181" stroke="#818181" stroke-width="0.032"/>
+<circle cx="45.8566" cy="44.0001" r="2.864" fill="#818181" stroke="#818181" stroke-width="0.032"/>
+<g filter="url(#filter0_d_210_67)">
+<line x1="52.8246" y1="43.9826" x2="45.8806" y2="20.0146" stroke="white" stroke-width="1.024"/>
+<line x1="32.0154" y1="8.03454" x2="18.1594" y2="20.0665" stroke="white" stroke-width="1.024"/>
+<line x1="32.0461" y1="8.02893" x2="45.8701" y2="19.9969" stroke="white" stroke-width="1.024"/>
+<line x1="11.2305" y1="20" x2="52.8305" y2="20" stroke="white" stroke-width="1.024"/>
+<line x1="11.2305" y1="44" x2="52.8305" y2="44" stroke="white" stroke-width="1.024"/>
+<line x1="32.0315" y1="44" x2="32.0315" y2="55.936" stroke="white" stroke-width="1.024"/>
+<line x1="12.244" y1="44.3317" x2="17.876" y2="19.9797" stroke="#FF383C" stroke-width="1.6"/>
+<line x1="31.7832" y1="44.1361" x2="18.2472" y2="20.0721" stroke="#32DB9A" stroke-width="1.6"/>
+<line x1="31.918" y1="44.2374" x2="45.966" y2="20.1094" stroke="#0A84FF" stroke-width="1.6"/>
+<circle cx="11.2003" cy="20.0001" r="2.88" fill="white"/>
+<circle cx="11.2316" cy="44.0001" r="2.88" fill="white"/>
+<circle cx="52.8019" cy="20.0001" r="2.88" fill="white"/>
+<circle cx="52.8019" cy="44.0001" r="2.88" fill="white"/>
+<circle cx="32.0323" cy="8.00012" r="2.88" fill="white"/>
+<circle cx="32.0323" cy="56.0001" r="2.88" fill="white"/>
+<path d="M32.0312 8L52.8159 20V44L32.0312 56L11.2466 44V20L32.0312 8Z" stroke="white" stroke-width="1.28"/>
+<circle cx="32.0323" cy="44.0001" r="2.88" fill="white"/>
+<circle cx="18.1769" cy="20.0001" r="2.88" fill="white"/>
+<circle cx="45.8878" cy="20.0001" r="2.88" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_210_67" x="8.19231" y="5.12012" width="47.6193" height="54.016" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.128"/>
+<feGaussianBlur stdDeviation="0.064"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_210_67"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_210_67" result="shape"/>
+</filter>
+<clipPath id="clip0_210_67">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>
