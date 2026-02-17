@@ -75,3 +75,11 @@ Order and hex values:
 | 6 | `#CCFFB3` |
 | 7 | `#B300FF` |
 | 8 | `#33FFFF` |
+
+---
+- OVITO: https://www.ovito.org/
+- Materials Project: https://materialsproject.org/
+- Jmol colors (used by Materials Project-style palette variants): https://jmol.sourceforge.net/jscolors/
+- VESTA: https://jp-minerals.org/vesta/en/
+- AtomEye (legacy project page/archive): http://li.mit.edu/Archive/Graphics/A/
+- Matplotlib Tab10: https://matplotlib.org/stable/gallery/color/color_cycle_default.html

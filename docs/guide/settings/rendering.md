@@ -1,15 +1,18 @@
 # Rendering
 
-## Preferred FPS
+## Frame Rate
 
 **Platform**: macOS, iOS, visionOS
 
-Options: `15`, `30`, `60`, `90`, `120` fps
+**Max FPS**
+Sets the target frame rate during active interaction.
+- Options: `60`, `90`, `120`, `240` fps
+- Default: `120 fps`
 
-Default: `120 fps`
-
-Current status: stored in settings, but currently not wired to the render view frame cap.
-
+**Idle FPS**
+Lowers the frame rate when the app is inactive (no data updates or camera movement) to save resources.
+- Options: `15`, `30`, `60` fps
+- Note: This setting does not apply to Spatial rendering.
 ## Render Scale
 
 **Platform**: macOS, iOS, visionOS
