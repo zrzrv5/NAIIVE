@@ -92,7 +92,7 @@ function triggerEasterEgg() {
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <a href="/" class="logo">NAIIVE</a>
+            <a href="/" class="logo"><img src="/favicon.svg" class="logo-favicon" alt="">NAIIVE</a>
             <div class="nav-links">
                 <a href="/guide/getting-started">Docs</a>
                 <a href="https://testflight.apple.com/join/VrYnN9nE" class="nav-btn">TestFlight Beta</a>
@@ -168,11 +168,11 @@ function triggerEasterEgg() {
             <!-- N: Node Editor -->
             <div class="narrative-row fade-in-scroll">
                 <div class="narrative-text">
-                    <h2 class="narrative-heading">Node Editor</h2>
-                    <p>Flexible, non-destructive workflows. Build complex analysis pipelines just by connecting the dots.</p>
+                    <h2 class="narrative-heading">Node editor Analysis</h2>
+                    <p><span class="wip-tag">Work in progress</span> Flexible, non-destructive workflows. Build complex analysis pipelines just by connecting the dots.</p>
                 </div>
                 <div class="narrative-visual">
-                    <img src="/images/uploaded_image_1766954826528.png" alt="Node Editor Interface" class="feature-img">
+                    <img src="/images/main/Node.png" alt="Node Editor Interface" class="feature-img">
                 </div>
             </div>
 
@@ -183,31 +183,31 @@ function triggerEasterEgg() {
                     <p>Real-time structural analysis. Get immediate feedback on your simulation data.</p>
                 </div>
                 <div class="narrative-visual">
-                    <img src="/images/analysis_dashboard.jpeg" alt="Analysis Dashboard" class="feature-img">
+                    <img src="/images/main/lmp1M.png" alt="Analysis Dashboard" class="feature-img">
                 </div>
             </div> -->
 
             <!-- I: Immersive -->
-            <!-- <div class="narrative-row fade-in-scroll">
+            <div class="narrative-row fade-in-scroll">
                 <div class="narrative-text">
                     <h2 class="narrative-heading">Immersive</h2>
                     <p>Step inside your data. Native spatial rendering on Apple Vision Pro brings atoms to life.</p>
                 </div>
                 <div class="narrative-visual">
-                    <img src="/images/spatial_rendering_demo_1766956069689.jpeg" alt="Spatial Rendering" class="feature-img">
+                    <img src="/images/main/Spatial_lmp1M.png" alt="Spatial Rendering" class="feature-img">
                 </div>
-            </div> -->
+            </div>
 
             <!-- V: Volumetric -->
-            <!-- <div class="narrative-row reverse fade-in-scroll">
+            <div class="narrative-row reverse fade-in-scroll">
                 <div class="narrative-text">
                     <h2 class="narrative-heading">Volumetric</h2>
                     <p>High-fidelity density rendering. Visualize fields and clouds with astonishing clarity.</p>
                 </div>
                 <div class="narrative-visual">
-                    <img src="/images/volumetric_rendering_demo_1766956080726.jpeg" alt="Volumetric Rendering" class="feature-img">
+                    <img src="/images/main/Spatial_xros.png" alt="Volumetric Rendering" class="feature-img">
                 </div>
-            </div> -->
+            </div>
 
             <!-- E: Ecosystem -->
             <div class="narrative-row fade-in-scroll">
@@ -216,7 +216,7 @@ function triggerEasterEgg() {
                     <p>Seamlessly available on macOS, iOS, and visionOS. Your research goes wherever you go.</p>
                 </div>
                 <div class="narrative-visual">
-                    <img src="/images/multi_platform_ecosystem_1766956093834.jpeg" alt="Apple Ecosystem" class="feature-img">
+                    <img src="/images/main/multiplatform.png" alt="Apple Ecosystem" class="feature-img">
                 </div>
             </div>
         </div>
@@ -247,7 +247,86 @@ function triggerEasterEgg() {
                         <p>Seamlessly sync between Mac, iPad, and Vision Pro. Your data, everywhere you work.</p>
                     </div> -->
                 </div>
+            </div>
+        </section>
 
+        <!-- Supported File Formats Section -->
+        <section class="formats-section">
+            <div class="container">
+                <h2 class="section-title">Supported File Formats</h2>
+            </div>
+            <div class="formats-ticker-wall">
+                <!-- Row 1: left -->
+                <div class="ticker-row">
+                    <div class="ticker-track ticker-left">
+                        <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                        <!-- duplicate for seamless loop -->
+                        <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                    </div>
+                </div>
+                <!-- Row 2: right -->
+                <div class="ticker-row">
+                    <div class="ticker-track ticker-right">
+                        <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
+                        <!-- duplicate -->
+                        <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
+                    </div>
+                </div>
+                <!-- Row 3: left, slower -->
+                <div class="ticker-row">
+                    <div class="ticker-track ticker-left ticker-slow">
+                        <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
+                        <!-- duplicate -->
+                        <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
+                    </div>
+                </div>
+                <!-- Row 4: right, slower -->
+                <div class="ticker-row">
+                    <div class="ticker-track ticker-right ticker-slow">
+                        <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                        <!-- duplicate -->
+                        <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                    </div>
+                </div>
+            </div>
+            <p class="formats-more">✦ more formats coming soon ✦</p>
+        </section>
+
+        <!-- CTA / Read to explore -->
+        <section class="cta-standalone">
+            <div class="container">
                 <div class="cta-section fade-in-scroll">
                     <h3>Ready to explore?</h3>
                     <div class="btn-group">
@@ -286,7 +365,7 @@ function triggerEasterEgg() {
 
                     <div class="faq-item fade-in-scroll">
                         <div class="faq-question">Price?</div>
-                        <div class="faq-answer">NAIIVE is free to use. No in-app purchases or subscriptions.</div>
+                        <div class="faq-answer">NAIIVE is free to use. No in-app purchases or subscriptions. If you find it useful, consider <a href="https://github.com/sponsors/zrzrv5" target="_blank" class="sponsor-link">sponsoring on GitHub ♥</a>.</div>
                     </div>
 
                     <div class="faq-item fade-in-scroll">
@@ -508,4 +587,176 @@ function triggerEasterEgg() {
 .nav-btn:hover {
     opacity: 0.9;
 }
+/* ── Supported File Formats ticker ── */
+.formats-section {
+    padding: 80px 0 60px;
+    overflow: hidden;
+}
+
+.formats-section .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.formats-ticker-wall {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* fade edges */
+    mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+}
+
+.ticker-row {
+    overflow: hidden;
+    padding: 6px 0;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.ticker-row:last-child {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.ticker-track {
+    display: flex;
+    gap: 0;
+    width: max-content;
+    will-change: transform;
+}
+
+/* Scroll left (normal direction) */
+.ticker-left {
+    animation: tickerScrollLeft 30s linear infinite;
+}
+
+/* Scroll right (reverse direction) */
+.ticker-right {
+    animation: tickerScrollRight 30s linear infinite;
+}
+
+/* Slower variants */
+.ticker-slow.ticker-left {
+    animation-duration: 42s;
+}
+
+.ticker-slow.ticker-right {
+    animation-duration: 38s;
+}
+
+@keyframes tickerScrollLeft {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+@keyframes tickerScrollRight {
+    0%   { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}
+
+.ticker-item {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 8px;
+    padding: 10px 28px;
+    white-space: nowrap;
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+}
+
+.fmt-cat {
+    font-weight: 700;
+    color: var(--geek-text-color);
+    font-size: 1rem;
+}
+
+.fmt-badge {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.45);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 1px 7px;
+    margin-left: 5px;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+}
+
+/* CTA standalone wrapper */
+.cta-standalone {
+    padding: 20px 0 80px;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 60px 0 20px;
+}
+
+.cta-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+/* ── Logo link ── */
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    text-decoration: none !important;
+    color: var(--geek-text-color) !important;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logo-favicon {
+    width: 22px;
+    height: 22px;
+    display: block;
+}
+
+/* ── WIP tag ── */
+.wip-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 200, 80, 0.9);
+    background: rgba(255, 200, 80, 0.1);
+    border: 1px solid rgba(255, 200, 80, 0.25);
+    border-radius: 4px;
+    padding: 1px 6px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+/* ── Formats "more coming" footer ── */
+.formats-more {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+/* ── Sponsor link ── */
+.sponsor-link {
+    color: rgba(255, 120, 150, 0.85) !important;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 120, 150, 0.3);
+    transition: color 0.2s, border-color 0.2s;
+}
+
+.sponsor-link:hover {
+    color: rgba(255, 140, 165, 1) !important;
+    border-color: rgba(255, 140, 165, 0.6);
+}
+
 </style>
