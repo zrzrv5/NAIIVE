@@ -59,6 +59,9 @@ This public repository serves as the **Community Hub** for NAIIVE, use this spac
 
 > ✈️ **TestFlight Public Beta:** The project is currently in active early development. You can try the latest build on [TestFlight](https://testflight.apple.com/join/VrYnN9nE).
 
+<!-- Download from App Store -->
+<!-- https://apps.apple.com/us/app/naiive/id6758065886 -->
+
 <!-- ### So, how is this sustainable?
 
 🤷  -->
