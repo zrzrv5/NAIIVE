@@ -38,7 +38,7 @@ This public repository serves as the **Community Hub** for NAIIVE, use this spac
 * 🐛 **Report Bugs** & track known issues.
 * 💡 **Request Features** or support for new file formats.
 * 💬 **Ask Questions** and discuss workflows in [Discussions](../../discussions).
-* 📄 **Read Documentation** (soon).
+* 📄 **Read Documentation** at [naiive.1sec.plus](https://naiive.1sec.plus).
 
 
 ---
@@ -58,6 +58,8 @@ This public repository serves as the **Community Hub** for NAIIVE, use this spac
 * **No Ads**, **No Tracking**, **No Internet Connection required**.
 
 > ✈️ **TestFlight Public Beta:** The project is currently in active early development. You can try the latest build on [TestFlight](https://testflight.apple.com/join/VrYnN9nE).
+>
+> 🚧 **0.2.0** is now in internal TestFlight (build 73) — Metal 4 renderer, `.naiive` documents, a 3-stage node graph, and a visionOS spatial overhaul. See the [update log](https://naiive.1sec.plus/updates/0.2.0) for the full notes.
 
 <!-- Download from App Store -->
 <!-- https://apps.apple.com/us/app/naiive/id6758065886 -->
@@ -87,14 +89,15 @@ While the *Application* is free for everyone, the **Source Code** is available e
 
 NAIIVE currently supports the following formats commonly used in my research workflow:
 
-* **LAMMPS**: `.dump` (supports `.gz` compression)
+* **LAMMPS**: `.dump` (supports `.gz` compression) and `data` files
 * **DeepMD**: `deepmd/npy` and `deepmd/raw`
 * **GAMESS**: `.inp` (Input) and log output files
-* **VASP**: `POSCAR`, `OUTCAR` (plain text), and `CHGCAR`
+* **VASP**: `POSCAR`, `XDATCAR`, `OUTCAR` (plain text), and `CHGCAR`
 * **XYZ**: `.xyz` and `.extxyz`
+* **NumPy**: `.npy` and `.npz`
 
 ### 🚧 Planned Support
-* **LAMMPS**: `data` files and thermodynamic logs
+* **LAMMPS**: thermodynamic logs
 * **Common Formats**: `.cif`, `.cfg`, `.pdb`
 * **Mesh**: `.stl`, `.obj`
 

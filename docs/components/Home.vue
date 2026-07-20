@@ -264,12 +264,14 @@ function triggerEasterEgg() {
                         <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
                         <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
                         <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">NumPy</span><span class="fmt-badge">.npy</span><span class="fmt-badge">.npz</span></span>
                         <!-- duplicate for seamless loop -->
                         <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
                         <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
                         <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
                         <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
                         <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">NumPy</span><span class="fmt-badge">.npy</span><span class="fmt-badge">.npz</span></span>
                     </div>
                 </div>
                 <!-- Row 2: right -->
@@ -280,12 +282,14 @@ function triggerEasterEgg() {
                         <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
                         <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
                         <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">NumPy</span><span class="fmt-badge">.npy</span><span class="fmt-badge">.npz</span></span>
                         <!-- duplicate -->
                         <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
                         <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
                         <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
                         <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
                         <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">NumPy</span><span class="fmt-badge">.npy</span><span class="fmt-badge">.npz</span></span>
                     </div>
                 </div>
                 <!-- Row 3: left, slower -->
@@ -296,12 +300,14 @@ function triggerEasterEgg() {
                         <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
                         <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
                         <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">NumPy</span><span class="fmt-badge">.npy</span><span class="fmt-badge">.npz</span></span>
                         <!-- duplicate -->
                         <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
                         <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
                         <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
                         <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
                         <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">NumPy</span><span class="fmt-badge">.npy</span><span class="fmt-badge">.npz</span></span>
                     </div>
                 </div>
                 <!-- Row 4: right, slower -->
@@ -312,12 +318,14 @@ function triggerEasterEgg() {
                         <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
                         <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
                         <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">NumPy</span><span class="fmt-badge">.npy</span><span class="fmt-badge">.npz</span></span>
                         <!-- duplicate -->
                         <span class="ticker-item"><span class="fmt-cat">XYZ</span><span class="fmt-badge">.xyz</span><span class="fmt-badge">.extxyz</span></span>
                         <span class="ticker-item"><span class="fmt-cat">LAMMPS</span><span class="fmt-badge">.data</span><span class="fmt-badge">.dump</span><span class="fmt-badge">.dump.gz</span></span>
                         <span class="ticker-item"><span class="fmt-cat">GAMESS</span><span class="fmt-badge">.inp</span><span class="fmt-badge">.log</span></span>
                         <span class="ticker-item"><span class="fmt-cat">VASP</span><span class="fmt-badge">OUTCAR</span><span class="fmt-badge">POSCAR</span><span class="fmt-badge">CHGCAR</span><span class="fmt-badge">XDATCAR</span></span>
                         <span class="ticker-item"><span class="fmt-cat">DeepMD</span><span class="fmt-badge">/raw</span><span class="fmt-badge">/npy</span></span>
+                        <span class="ticker-item"><span class="fmt-cat">NumPy</span><span class="fmt-badge">.npy</span><span class="fmt-badge">.npz</span></span>
                     </div>
                 </div>
             </div>
